@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.*;
 
 public class DienThoaiThongMinh extends DienThoai {
     private String tanSoQuet;
@@ -46,5 +47,10 @@ public class DienThoaiThongMinh extends DienThoai {
     @Override
     public String getLoaiDT() {
         return "ThongMinh";
+    }
+
+    @Override
+    public void docFile(String fileName) throws FileNotFoundException, IOException, ClassNotFoundException {
+        throw new UnsupportedOperationException("Unimplemented method 'docFile'");
     }
 }

@@ -29,7 +29,6 @@ public class NhanVien implements IReadWriteFile, Serializable {
         this.luong = nv.luong;
     }
 
-    // Getters
     public String getMaNV() { return maNV; }
     public String getHoNV() { return hoNV; }
     public String getTenNV() { return tenNV; }
@@ -37,7 +36,6 @@ public class NhanVien implements IReadWriteFile, Serializable {
     public String getBirth() { return birth; }
     public double getLuong() { return luong; }
 
-    // Setters
     public void setMaNV(String maNV) { this.maNV = maNV; }
     public void setHoNV(String hoNV) { this.hoNV = hoNV; }
     public void setTenNV(String tenNV) { this.tenNV = tenNV; }
